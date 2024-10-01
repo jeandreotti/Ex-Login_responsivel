@@ -53,7 +53,6 @@ section#login > div#formulario {
 div#formulario > h1{
     text-align: center;
     margin-bottom: 10px;
-    
 }
 
 form > .campo {
@@ -64,7 +63,6 @@ form > .campo {
     border-radius: 5px;
     border: 1px solid black;
     width: 100%;
-   
     }
 
 form > .campo > label{
