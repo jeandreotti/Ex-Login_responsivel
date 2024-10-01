@@ -100,14 +100,14 @@ border: solid 1px;
 
 }
 
-form > a.botao{
+form > p.botao{
     display: block;
     text-align: center;
     margin-top: 5px;
     
 }
 
-form > a.botao:hover {
+form > p.botao:hover {
     text-decoration: none;
    color: red;
 }
