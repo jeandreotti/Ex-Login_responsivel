@@ -79,7 +79,7 @@ form > div.campo > input{
     border-radius: 5px;
     width: calc(68% - 10px);
     border: 1px solid black;
-    transform: translateY(1px);
+    transform: translateY(-1px);
     text-align: center;
     height: 20px;
     
