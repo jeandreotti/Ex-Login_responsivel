@@ -13,15 +13,20 @@ Lilás: #5f2c82
     box-sizing: border-box;
 }
 
-body, html {
+body{
     background-color: #5f2c82;
-    height: 100vh;
-    width: 100vw;
 }
 
 main {
     height: 100vh;
     width: 100vw;
+}
+
+section#login > div#imagem {
+    background: url(./loginentrance.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: left bottom;
 }
 
 section#login{
@@ -30,19 +35,11 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
-}
-
-section#login > div#imagem {
-    background: url();
-    height: 200px;
-    background-size: cover;
-    background-position: left bottom;
 }
 
 section#login > div#formulario {
@@ -80,8 +77,6 @@ form > div.campo > input{
     transform: translateY(-1px);
     text-align: center;
     height: 20px;
-    
-    
 }
 
 form > input[type=submit] {
@@ -90,21 +85,19 @@ form > input[type=submit] {
     background-color: rgb(212, 198, 198);
     border: solid 1px;
     border-radius: 5px;
-    
+    height: 30px;
 }
 
 form > input[type=submit]:hover{
 background-color: rgb(155, 149, 149);
 cursor: pointer;
 border: solid 1px;
-
 }
 
 form > p.botao{
     display: block;
     text-align: center;
     margin-top: 5px;
-    
 }
 
 form > p.botao:hover {

@@ -2,13 +2,14 @@
 
 @media screen and (min-width: 768px) and (max-width:992px) {
     section#login {
-        width: 80vw;
-            }
+    width: 80vw;
+    }
+
     section#login > div#imagem {
         float: left;
         width: 40%;
         height: 100%;
-       background-position: center;
+        background-position: center;
     }
 
     section#login > div#formulario {
@@ -29,9 +30,9 @@
         left: 62%;   
     }
         form > input[type=submit]  {
-         width: 62%;  
-         margin: auto; 
-     }
+            width: 62%;  
+            margin: auto; 
+        }
 }
 
 @media screen and (min-width: 992px) {
